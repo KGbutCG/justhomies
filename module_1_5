@@ -1,0 +1,9 @@
+immutable_var = 1, True, 1.0
+print('Immutable tuple: ', immutable_var)
+# immutable_var[0:2] = 2, False, 'yum'
+# print (immutable_var)
+# нельзя изменить элементы потому что это особенность кортежей, зато можно изменить полностью весь кортеж, просто заново присвоить (immutable_var = 2, False, 'yum')
+mutable_list = [17,'foxtrot', 'rzhavoy']
+print('Mutable list before', mutable_list)
+mutable_list [1] = 'vozvraschenie na rodinu'
+print('Mutable list after: ', mutable_list)
