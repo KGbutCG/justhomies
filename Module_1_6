@@ -1,6 +1,6 @@
 my_dict = {'olya':1996,'marina':1999, 'natasha': 1996}
 print(my_dict)
-print (my_dict.get('olya','dan'))
+print (my_dict.get('olya',my_dict.get'dan'))
 my_dict.update({'rash-al-gul': 1371, 'batman':1939 })
 print(my_dict.pop('natasha'))
 print(my_dict)
