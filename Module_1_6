@@ -4,3 +4,12 @@ print (my_dict.get('olya','dan'))
 my_dict.update({'rash-al-gul': 1371, 'batman':1939 })
 print(my_dict.pop('natasha'))
 print(my_dict)
+
+# mnozhestva
+
+my_set = {1,1,2,2,'chips', 'chips', 3.0,3.0}
+print(my_set)
+my_set.add(56)
+my_set.add(45)
+my_set.discard(2)
+print(my_set)
