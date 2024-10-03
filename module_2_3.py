@@ -11,6 +11,3 @@ while number < len(my_list) :
             continue
         if my_list[number] < 0 :
             break
-else :
-    print('byeeeee, i suck in my job')
-
