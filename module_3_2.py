@@ -1,4 +1,4 @@
-
+# nice one
 def send_email(message, recipient, sender='university.help@gmail.com') :
 
     if not "@" in recipient or not recipient.endswith((".com", ".ru", ".net")):
