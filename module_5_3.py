@@ -44,13 +44,16 @@ class House:
              return self
     def __sub__(self, other):
         if isinstance(other, int):
-            return self.number_of_floors - other
+            self.number_of_floors = self.number_of_floors - other
+            return self
     def __mul__(self, other):
         if isinstance(other, int):
-            return self.number_of_floors * other
+            self.number_of_floors = self.number_of_floors * other
+            return self
     def __truediv__(self, other):
         if isinstance(other, int):
-            return self.number_of_floors / other
+            self.number_of_floors = self.number_of_floors / other
+            return self
 
 
 
